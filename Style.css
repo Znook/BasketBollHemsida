@@ -1,0 +1,164 @@
+/* GENERAL CSS STYLING START*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: whitesmoke
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,50,1) 0%, rgba(0,7,255,1) 100%);
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-align: center;
+}
+
+header a:hover{
+    color:yellow
+}
+
+p {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+/* GENERAL CSS STYLING END*/
+
+/* NAV BAR STYLING START*/
+
+nav {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+ul{
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+li{
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    color: gold;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+/* NAV BAR STYLING END */
+
+.Bigpic img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 560px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Picture-Link {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+
+.Picture-Link a {
+    color: white;
+}
+
+.Picture-Link a:hover {
+    color: yellow;
+}
+
+
+/* FLEXBOX STYLING HERE START*/
+
+#ColorMeBlack {
+    color: black;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.flexbox-item {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    /* border: 3px solid #333; */
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flexbox-item a {
+    color: black;
+}
+
+.flexbox-item a:hover {
+    color: yellow;
+}
+
+.flexbox-picture {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Flexbox-img {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    /* margin-top: 30px; */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* FLEXBOX STYLING HERE END*/
